@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MT Hospital",
+    "slug": "mt-hospital",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mtlogo.png",
+    "splash": {
+      "image": "./assets/mtlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mtlogo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.project.mthospital",
+      "permissions": ["INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/mtlogo.png"
+    },
+    "description": "hospital-booking"
+  }
+}
